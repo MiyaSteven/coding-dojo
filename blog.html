@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <meta name="description" content="Casual log of my daily life">
+    </head>
+    <body>
+        <div id="content"></div>
+        <a></a>
+        <p>
+            <h1>Table of my stack in progress</h1>
+            <ul id="table">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cadence</li>
+                <li>SQL</li>
+            </ul>
+        </p>
+        <table> 
+            <thead>
+                <tr>
+                    <th>Steven</th>
+                    <th>Miyauchi</th>
+                    <th>swm9220@gmail.com</th>
+                    <th>N/A</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Steven
+                    </td>
+                    <td>
+                        Miyauchi
+                    </td>
+                    <td>
+                        swm9220@gmail.com
+                    </td>
+                    <td> 
+                        N/A 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <form action="process.php" method="post">
+        <p>Please Register</p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+       
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+       
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+       
+        <p>Select your gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+       
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        
+        <label for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+
+        <p>Say a few words about yourself:</p>
+        <textarea type="text" id="description" name="description"></textarea>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+       
+        <input type="submit" value="Click here to register">
+        <p>Favorite language</p>
+        <select id="language">
+            <option value="javascript">Javascript</option>
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+            <option value="python">Python</option>
+        </select>
+    </form>
+</html>
