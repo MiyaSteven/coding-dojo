@@ -53,7 +53,6 @@ console.log(from line 63)
 // 2.)
 function changeArr2(arr) {
     x = arr.length; 
-    return x
     for (var i = 0; i < arr.length / 2; i++) {
         temp = arr[i];
         arr[i] = arr[x - i - 1];
