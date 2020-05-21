@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970;
+    height: 1030px;
+    background-image: radial-gradient(#979795, #49363E);
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#header{
+    margin: 15px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid red;
+
+}
+
+#name{
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#description{
+    border: 2px solid brown;
+    display: inline-block;
+    margin: auto;
+}
+
+#about{
+    border: 2px solid pink;
+}
+
+.intro{
+    border: 2px solid yellow;
+}
+
+#laMode{
+    border: 2px solid white;
+}
+
+#familyContacts{
+    border: 2px solid green;
+}
+
+#fiveEleven{
+    border: 2px solid purple;
+}
+
+#footer{
+    border: 2px solid orange;
+}
+
+img{
+    border: 2px solid blue;
+    height: 40px;
+    width: 40px;
+}
