@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    background-color: tan;
+    height: 1030px;
+    width: 970px;
+    display: flex;
+}
+
+#image-container{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+img{
+    height: 175px;
+    width: 175px;
+    border: 2px solid black;
+}
